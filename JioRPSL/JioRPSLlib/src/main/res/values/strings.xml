@@ -29,7 +29,7 @@
     <string name="certificate_data">ajh3R3FEd09EYkNNbmtoTmpySFpOQXVZYkQ1dU1ETlJrT2l5aXpOOW44ND0=</string>
 
     <string name="document_capture" tools:ignore="ExtraTranslation">Document Capture</string>
-    <string name="sdk_version">0.3.0</string>
+    <string name="sdk_version">0.1.0</string>
 
     <string name="encryption_data">OXB0eng2cmViaHJ4dDRtNjR6ejJ5d2I0a29kb3Y0YzU=</string>
 </resources>
