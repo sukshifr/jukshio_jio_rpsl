@@ -222,7 +222,7 @@ public class POCActivity extends AppCompatActivity {
             params.put("docCapturePrompt", docCapturePrompt);//String
             params.put("document", "CARD");
             params.put("doc_type", 1);
-            JukshioDocActivity.start(POCActivity.this, docCaptureCompleteHandler, params);
+            JukshioDocActivity.start(POCActivity.this,params, docCaptureCompleteHandler);
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -336,7 +336,7 @@ public class POCActivity extends AppCompatActivity {
             params.put("docCapturePrompt", docCapturePrompt);//String
             params.put("sub_type", sub_type);
             params.put("app_id",app_id);
-            JukshioDocActivity.start(POCActivity.this, docCaptureCompleteHandler1,params);
+            JukshioDocActivity.start(POCActivity.this,params, docCaptureCompleteHandler1);
         } catch (JSONException e) {
             e.printStackTrace();
         }

@@ -433,7 +433,7 @@ public class JukshioDocActivity extends AppCompatActivity implements FaceDect.On
     /**
      * Static method to start self activity passing parameters like DocCaptureCompleteListener.
      **/
-    public static void start(Context context, DocCaptureCompleteHandler onDocCaptured, JSONObject docParams) {
+    public static void start(Context context,JSONObject docParams, DocCaptureCompleteHandler onDocCaptured) {
         logDocCaptureStartEvent(frontOrNot);
         Intent intent = new Intent(context, JukshioDocActivity.class);
         try {
