@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6610F2</color>
+    <color name="colorPrimaryDark">#6610F2</color>
+    <color name="colorAccent">#6610F2</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="black_trans">#80000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F44F5A</color>
+    <color name="yellow">#F0B421</color>
+    <color name="light_yellow">#F8F0DC</color>
+    <color name="yellow_border">#FFFBF0</color>
+    <color name="light_purple">#F4EDFF</color>
+    <color name="light_green">#E0F5EC</color>
+
+    <color name="light_grey">#F4F4F4</color>
+    <color name="purple">#6610F2</color>
+    <color name="grey">#E2E2E2</color>
+    <color name="grey_light">#F8F8F8</color>
+    <color name="dark_grey">#C4C4C4</color>
+    <color name="yellow_color">#FAE000</color>
+    <color name="green_color">#006400</color>
+    <color name="blue_box">#0080FF</color>
+    <color name="red_color">#dc0000</color>
+    <color name="bg_color">#E5E5E5</color>
+    <color name="eyeOutline">#000000</color>
+    <color name="colorTitle">#414961</color>
+    <color name="clear">#00000000</color>
+    <color name="btn_grey">#DCDCDC</color>
+    <color name="btn_text_grey">#B5B5B5</color>
+    <color name="red_error">#FF0000</color>
+    <color name="red_trans">#80FF0000</color>
+    <color name="green">#09BA6F</color>
+    <color name="success_grey_color">#C0CFD5</color>
+    <color name="video_green">#33C481</color>
+    <color name="lineGray">#E9E9E9</color>
+</resources>

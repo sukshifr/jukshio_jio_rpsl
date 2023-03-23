@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string-array name="options_array">
+    <item>Real</item>
+    <item>Fake</item>
+    </string-array>-->
+
+    <string-array name="card_array">
+        <item>Aadhaar</item>
+        <item>eaadhaar</item>
+<!--        <item>eaadhaar-bottom</item>-->
+        <item>PAN</item>
+        <item>Passport</item>
+        <item>VoterID</item>
+        <item>DL</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="ea_array">
+        <item>eaadhaar</item>
+        <item>eaadhaar-bottom</item>
+    </string-array>
+</resources>

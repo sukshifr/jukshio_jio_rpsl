@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.JukshioFaceActivity">
+
+    <com.jukshio.JioRPSLlib.Camera.CameraSourcePreview
+        android:id="@+id/previewAuth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.jukshio.JioRPSLlib.Camera.CameraSourcePreview>
+
+    <com.jukshio.JioRPSLlib.Tracker.GraphicOverlay
+        android:id="@+id/faceOverlayAuth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/preview"
+        android:visibility="invisible"/>
+
+    <com.jukshio.JioRPSLlib.Tracker.OvalView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/enable_camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/straightFaceWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D13328"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dp20"
+        android:background="@drawable/exitbtn"/>
+
+    <TextView
+        android:id="@+id/faceCaptureTitleText"
+        android:textColor="#414961"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/viewToHideCircle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

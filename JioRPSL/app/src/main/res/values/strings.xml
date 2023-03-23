@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JioRPSL</string>
+    <string name="liveness_check">Liveness check</string>
+    <string name="doc_capture">Doc Capture</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="back_camera1">Back Camera</string>
+    <string name="front_camera1">Front Camera</string>
+    <string name="app_id_config">jio_rpsl</string>
+    <string name="secure_data">oljsGtPZWqQEjPcVKOrDBqNLLulfPDrhlvRHoNVRHkqkpjFPZWAOxlFugtYAAopO</string>
+    <string name="app_id_configurable">jio_rpsl</string>
+</resources>

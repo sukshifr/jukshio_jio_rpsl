@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <!-- solid background -->
+            <solid android:color="@color/lineGray" />
+            <stroke android:width="1px" android:color="@color/light_grey" />
+
+            <!-- draw 35 dp radius for each corner -->
+            <corners android:radius="6dp"/>
+        </shape>
+    </item>
+</selector>

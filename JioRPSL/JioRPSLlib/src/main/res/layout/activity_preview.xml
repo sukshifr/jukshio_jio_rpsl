@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PreviewActivity">
+
+    <TextView
+       android:id="@+id/tv_title"
+        android:textSize="@dimen/sp20"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/eyeOutline"
+        android:text="@string/review_your_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_below="@+id/tv_title"
+        android:textSize="@dimen/sp18"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/is_your_document_fully_visible_glare_free_and_not_blurred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_response"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_below="@+id/tv_subtitle"
+        android:textSize="@dimen/sp18"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_document"
+        android:layout_width="450dp"
+        android:layout_height="450dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_retake"
+            android:layout_marginBottom="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp8"
+            android:background="@drawable/button_border"
+            android:text="@string/retake"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_use_this"
+            android:layout_marginBottom="@dimen/dp16"
+            android:layout_marginLeft="@dimen/dp8"
+            android:textColor="@color/button_text_color"
+            android:background="@drawable/color_button_background"
+            android:text="@string/use_this_photo"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

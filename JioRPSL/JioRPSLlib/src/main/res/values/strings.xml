@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">JukshioPOCLib</string>
+    <string name="is_your_document_fully_visible_glare_free_and_not_blurred">Is your document fully visible, glare free and not blurred?</string>
+    <string name="retake">RETAKE</string>
+    <string name="use_this_photo">Use This Photo</string>
+    <string name="review_your_photo">Review Your Photo</string>
+    <string name="doc_instruction">Make sure your document is without\n any glare and is fully inside</string>
+    <string name="doc_instruction_red">Hold the phone flat while capturing. Do\n not tilt the phone while capturing.</string>
+    <string name="doc_prompt">Document</string>
+    <string name="go_back">Go Back!</string>
+
+    <string name="staging_server">apis-az-staging.Jukshiocorp.com</string>
+    <string name="prod_server">apis.Jukshiocorp.com</string>
+    <string name="replica_server">apis-az-replica.Jukshiocorp.com</string>
+
+    <string name="new_prod_server">apis2.Jukshiocorp.com</string>
+    <string name="new_ent_prod_server">apis-entdkyc-prod2.Jukshiocorp.com</string>
+    <string name="az_dev_server">apis-az-dev.Jukshiocorp.com</string>
+    <string name="az_preprod_server">apis-az-preprod.Jukshiocorp.com</string>
+    <string name="az_sandbox_server">apis-az-sandbox.Jukshiocorp.com</string>
+    <string name="az_prod_server">apis-az-prod.Jukshiocorp.com</string>
+    <string name="new_az_prod_server">apis-az-prod2.Jukshiocorp.com</string>
+
+    <string name="new_az_dev_staging_server">apis-dev-staging.Jukshiocorp.com</string>
+
+    <string name="az_entdkyc_repl_server">apis-entdkyc-replica.Jukshiocorp.com</string>
+    <string name="ent_prod_server">apis-entdkyc-prod.Jukshiocorp.com</string>
+
+    <string name="certificate_data">ajh3R3FEd09EYkNNbmtoTmpySFpOQXVZYkQ1dU1ETlJrT2l5aXpOOW44ND0=</string>
+
+    <string name="document_capture" tools:ignore="ExtraTranslation">Document Capture</string>
+    <string name="sdk_version">0.3.0</string>
+
+    <string name="encryption_data">OXB0eng2cmViaHJ4dDRtNjR6ejJ5d2I0a29kb3Y0YzU=</string>
+</resources>
+
